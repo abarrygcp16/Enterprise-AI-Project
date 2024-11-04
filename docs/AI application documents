@@ -1,0 +1,42 @@
+Here is Kivy project tutorial on how to build a pong application. It's really informative and helped a lot on building the our application project. I suggest you go through it and familiarized yourself with the framework.
+
+https://kivy.org/doc/stable/tutorials/pong.html#introduction
+
+https://kivy.org/doc/stable/tutorials/firstwidget.html
+
+
+Here is a Youtube Video on how to develop a simple Kivy application
+
+https://www.youtube.com/watch?v=F7UKmK9eQLY&list=PLdNh1e1kmiPP4YApJm8ENK2yMlwF1_edq
+
+
+Widgets references
+
+https://inclem.net/2019/12/18/kivy/kivy_tutorial_002_improving_appearance/
+
+
+Architectural Overview of Kivy
+
+https://kivy.org/doc/stable/guide/architecture.html
+
+
+Here are links with information regarding Azure OCR and TTS
+
+https://learn.microsoft.com/en-us/azure/ai-services/document-intelligence/prebuilt/read?view=doc-intel-4.0.0&tabs=sample-code
+
+
+https://learn.microsoft.com/en-us/azure/ai-services/speech-service/text-to-speech
+
+
+Now here are docs on how to Docker and how to containerized application
+
+https://docs.docker.com/get-started/introduction/
+
+https://docs.docker.com/get-started/docker-concepts/building-images/
+
+
+https://docs.docker.com/get-started/docker-concepts/building-images/writing-a-dockerfile/
+
+Github Actions to build and deploy the docker image in a CI manner
+
+https://docs.github.com/en/actions/writing-workflows/quickstart
