@@ -1,0 +1,6 @@
+# requirements.txt
+kivy==2.1.0
+requests==2.26.0
+azure-cognitiveservices-vision-computervision
+azure-cognitiveservices-speech
+opencv-python-headless 
