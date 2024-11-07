@@ -1,12 +1,17 @@
 from azure.cognitiveservices.vision.computervision import ComputerVisionClient
 from azure.cognitiveservices.vision.computervision.models import OperationStatusCodes
+from dotenv import load_dotenv
 from msrest.authentication import CognitiveServicesCredentials
 import time
 import os
 
+
+# Loading environment variables from .env file since this repository is public
+load_dotenv
+
 # Replace 'with_subscription_key' and 'subscrition_endpoint' with Azure Computer Vision API key and endpoint.
-subscription_key = ""
-endpoint = ""
+subscription_key = os.getenv("AZURE_SUBSCRIPTION_KEY")
+endpoint = os.getenv("AZURE_COMPUTER_VISION_ENDPOINT")
 
 def extract_text_from_image(image_path):
     # Initialize the Computer Vision client
