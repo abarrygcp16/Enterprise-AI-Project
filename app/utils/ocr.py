@@ -7,9 +7,9 @@ import os
 
 
 # Loading environment variables from .env file since this repository is public
-load_dotenv
+load_dotenv()
 
-# Replace 'with_subscription_key' and 'subscrition_endpoint' with Azure Computer Vision API key and endpoint.
+# Loading the secrets added in the .env file
 subscription_key = os.getenv("AZURE_SUBSCRIPTION_KEY")
 endpoint = os.getenv("AZURE_COMPUTER_VISION_ENDPOINT")
 
